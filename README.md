@@ -55,7 +55,6 @@ Security Groups: Learned how inbound and outbound rules affect public accessibil
 
 <img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/ba858f0e-4163-4d5a-9084-d337b74db60c" />
 <img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/462d1ef1-cb74-4605-a0ea-fcd130dd30f3" />
-<img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/98ecdda0-a540-47a7-bbba-204bdb6cdfde" />
 
 Overall Outcome !!
 
