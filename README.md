@@ -17,6 +17,7 @@ The goal was to buy a domain, launch an EC2 instance, configure NGINX, and make 
 
 - Bought the domain: **`abdishakurosman.uk`** using **Cloudflare**  
 - Chose a personal domain for reuse in future projects
+- created an A record which pointed to my EC2 Instance
   
 <img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/ed35f5d7-d8e6-43d4-88b2-7a2b9e59927c" />
 
@@ -31,8 +32,14 @@ The goal was to buy a domain, launch an EC2 instance, configure NGINX, and make 
     
     <img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/62f1fd04-946f-4abd-8e45-98cff9cf9745" />
 
+- I have then installed NGINX 
+Using these commands : 
+- sudo apt update
+- sudo apt install nginx -y
+- sudo systemctl start nginx
+- sudo systemctl enable nginx
 
-7. Challenges & Lessons Learned
+ Challenges & Lessons Learned !!
 
 Domain vs Public IP: Initially, the site worked on EC2 IP but not domain → needed correct DNS A record
 
@@ -49,7 +56,7 @@ Security Groups: Learned how inbound and outbound rules affect public accessibil
 <img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/ba858f0e-4163-4d5a-9084-d337b74db60c" />
 <img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/462d1ef1-cb74-4605-a0ea-fcd130dd30f3" />
 
-8. Outcome
+Overall Outcome !!
 
 Successfully deployed a live website on AWS EC2
 
