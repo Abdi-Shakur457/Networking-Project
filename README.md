@@ -6,8 +6,8 @@ This assignment demonstrates deploying a simple web application on **AWS EC2** a
 
 The goal was to buy a domain, launch an EC2 instance, configure NGINX, and make the site accessible via a personal domain.
 
+<img width="1920" height="1080" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/ca99a553-a2ed-4f37-8791-ecbf51f3b6d6" />
 
-<img width="1920" height="1080" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/f6e6caa4-cfc1-4f02-b72d-d444c4bae303" />
 
 ---
 
@@ -45,7 +45,7 @@ Domain vs Public IP: Initially, the site worked on EC2 IP but not domain → nee
 
 Curl vs Browser issue: When I ran curl from the EC2 instance, it successfully returned the NGINX page, but when accessing the domain in a browser, it displayed a “Web server down” message.
 
-After troubleshooting and reviewing Security Groups, I realized I had forgotten to include HTTPS (port 443) in the inbound rules.
+After troubleshooting and reviewing Security Groups, I realised I had forgotten to include HTTPS (port 443) in the inbound rules.
 
 Added the rule and verified nginx was listening on HTTPS → browser access worked.
 
@@ -55,6 +55,7 @@ Security Groups: Learned how inbound and outbound rules affect public accessibil
 
 <img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/ba858f0e-4163-4d5a-9084-d337b74db60c" />
 <img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/462d1ef1-cb74-4605-a0ea-fcd130dd30f3" />
+<img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/98ecdda0-a540-47a7-bbba-204bdb6cdfde" />
 
 Overall Outcome !!
 
